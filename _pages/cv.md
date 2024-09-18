@@ -9,37 +9,77 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+# Languages
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- Spanish: Native
+- English: Native
+- German: C1
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+# Education
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+ - Ph.D in Cognitive Science, Graz University of Technology, 2025 (expected)
+ - M.Sc. in Data Analytics, Hildesheim University, 2020
+ - B.Sc. in Computer Science, Guanajuato University, 2016
+
+# Experience
+
+- 2020 - 2022: Assistant Researcher
+  - Graz University of Technology: Institute of Neural Engineering
+  - Duties includes: Experimental Design, Data Analysis, and Teaching
+
+- 2018 - 2019: Behavioral Data Analyst
+  - Hildesheim University: Institute of General Psychology
+  - Duties included: Experimental Design Implementation, Technological development, and Data Analysis
+
+- 2016 - 2017: Intern Data Analyst
+  - LaSalle Bajío University: Center for Neuroscience
+  - Duties included: Data Analysis for EEG, ECG, and questionnaires
+
+- 2015 - 2016: Technology Consultant
+  - Tecnológico de Monterrey: School of Government and Public Transformation
+  - Duties included: Technological development and consulting
+
+# Skills
+
+- Scientific Programming:
+  - Python
+  - Julia
+
+- Data Analysis:
+  - MNE-Python
+  - PyTorch
+  - Turing.jl
+  - BrainVision Analyzer
+
+- Experimental Design:
+  - Psychopy
+  - OpenVIBE
+  - NBS Presentation
+  - E-Prime
+
+- Lab Technology:
+  - Lab Streaming Layer
+  - BIDS
+  - XDF
+  - Tobii Pro
+  - Brain Products
+  - BioSemi
+  - BioGraph Infiniti
+  - Bitbrain
+
+- Scientific Communication:
+  - Jupyter
+  - Quarto
+  - LaTeX
+  - git/GitHub
+
+- Linux:
+  - Ubuntu
+  - Arch
+  - NixOS
+  - Docker
+
+- Mindfulness Facilitator (certified)
 
 Publications
 ======
@@ -47,7 +87,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
@@ -57,8 +97,12 @@ Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+# Service and leadership
+- Urban Gardner at the Graz University of Technology.
+- Co-organizer of the [FreiRaumFest Graz](https://freiraumfest.at/).
+- Over 4 years of volunteering at Techo México.
+- 2 years Science communicator around Guanajuato, México.
+- Member at the [local](https://realraum.at/) [Hackerspace](https://wiki.hackerspaces.org/).
+
