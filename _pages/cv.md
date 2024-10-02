@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Are you building a team to unravel the misteries of the mind? I have a strong technical and theorical background to offer, as well as more than 15 years of experience working in interdisciplinary teams. I can help you design cognitive science experiments with high precision and technical reliability without paying for any licenses. Openness and reproducibility are my focus. I'm currently looking for a team to work with. If you think I could be a good fit for yours, please contact me.
+Are you building a team to unravel the misteries of the mind? I have a strong technical and theorical background to offer, as well as more than 15 years of experience working in interdisciplinary teams. I can help you design cognitive science experiments with high precision and technical reliability without paying for any licenses. Openness and reproducibility are my focus. I'm currently looking for a team to work with. If you think I could be a good fit for yours, please contact me. [Find my CV here](/files/cv.pdf)
 
 # Education
 
@@ -43,97 +43,6 @@ Are you building a team to unravel the misteries of the mind? I have a strong te
 
 # Skills
 
-<!-- - Scientific Programming:
-  - Python
-  - Julia
-
-- Data Analysis:
-  - MNE-Python
-  - PyTorch
-  - Turing.jl
-  - BrainVision Analyzer
-
-- Experimental Design:
-  - Psychopy
-  - OpenVIBE
-  - NBS Presentation
-  - E-Prime
-
-- Lab Technology:
-  - Lab Streaming Layer
-  - BIDS
-  - XDF
-  - Tobii Pro
-  - Brain Products
-  - BioSemi
-  - BioGraph Infiniti
-  - Bitbrain
-
-- Scientific Communication:
-  - Jupyter
-  - Quarto
-  - LaTeX
-  - git/GitHub
-
-- Linux:
-  - Ubuntu
-  - Arch
-  - NixOS
-  - Docker
-
-- Mindfulness Facilitator (certified)
-
-Turn into a table:-->
-
-<!-- | Scientific Programming | Data Analysis | Experimental Design | Lab Technology | Scientific Communication | Linux        | Teaching                           |
-|------------------------|---------------|----------------------|----------------|-------------------------|--------------|------------------------------------|
-| Python                 | MNE-Python    | Psychopy             | LSL            | Jupyter                 | Ubuntu       | Certified Mindfulness Facilitator  |
-| Julia                  | PyTorch       | OpenVIBE             | BIDS           | Quarto                  | Arch         |                                    |
-| R                      | Turing.jl     | NBS Presentation     | XDF            | LaTeX                   | NixOS        |                                    |
-|                        | BrainVision Analyzer | E-Prime       | Tobii Pro      | git/GitHub              | Docker       |                                    |
-|                        |               |                      | Brain Products |                         | Docker-Swarm |                                    |
-|                        |               |                      | BioSemi        |                         |              |                                    |
-|                        |               |                      | BioGraph Infiniti |                      |              |                                    |
-|                        |               |                      | Bitbrain       |                         |              |                                    |
-
-Maybe lists of lists?-->
-<!-- 
- - Scientific Programming and Data Analysis
-  - Python:
-    - Numeric Computing: Numpy, Scipy
-    - Visualization: Matplotlib, Seaborn
-    - Data Analysis: Pandas, Polars
-    - MNE-Python
-    - MNE-BIDS
-    - MNE-Features
-    - PyTorch: CNNs, GANs, VAEs
-  - Julia:
-    - Turing
-    - Flux
-    - Makie
- - Experimental Design and Lab Technology
-  - gTec: EEG
-  - Brain Products: EEG, ECG, EDA
-  - BioSemi: EEG
-  - BioGraph Infiniti: Bio- and Neurofeedback
-  - Bitbrain: EEG, ECG, EDA
-  - Tobii Pro: Eye Tracking
-  - BrainVision Analyzer
-  - Experiment Design Software:
-    - Psychopy
-    - OpenVIBE
-    - NBS Presentation
-    - E-Prime
-  - Lab Streaming Layer
-  - Brain Imaging Data Structure (BIDS)
-  - Biosignals Data Formats (XDF, EDF, BDF)
- - Scientific Computing
-  - Advanced git/Github
-  - Linux: Ubuntu, Arch, NixOS
-  - Docker: Docker-Swarm, Portainer
-  - Distributed Computing: Dask, MPI, Distributed Julia
-  - Scientific writing: Jupyter, Latex, Pandoc, Quarto -->
-
 <table>
 <tr>
 <th> Scientific Programming and Data Analysis </th>
@@ -165,6 +74,7 @@ Maybe lists of lists?-->
 - BioGraph Infiniti: Bio- and Neurofeedback
 - Bitbrain: EEG, ECG, EDA
 - Tobii Pro: Eye Tracking
+- Polar: H10, Verity Sense
 - BrainVision Analyzer
 - Experiment Design Software:
   - Psychopy
