@@ -30,4 +30,4 @@ As the keystone of cooperation, scientific communication is the most important p
 Scientific knowledge is a common good. We can with the right mindset and tools, make its discovery, management, and sharing available to everyone. I am here to demonstrate it with my work, and to help others do the same.
 
 ## About me
-My name is Luis Alberto Barradas Chacón, I am a PhD candidate at doctoral school for Informatics at the TUGraz. I am a certified Mindfulness facilitator, and a member of the Mexican Society for Bio- and Neurofeedback, and the [Mexican Biosignals group](https://biosenales.com/). In this webpage you might find some of my work as an Engineer, Behavioral Data Analyist, Statistician, and Cognitive Scientist.
+My name is Luis Alberto Barradas Chacón, I am a PhD candidate at doctoral school for Informatics at the TUGraz. I am a [certified](./files/certificates/2024_Mindfulness.pdf) Mindfulness facilitator, and a member of the Mexican Society for Bio- and Neurofeedback, and the [Mexican Biosignals group](https://biosenales.com/). In this webpage you might find some of my work as an Engineer, Behavioral Data Analyist, Statistician, and Cognitive Scientist.

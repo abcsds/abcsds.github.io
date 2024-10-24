@@ -51,49 +51,56 @@ Are you building a team to unravel the misteries of the mind? I have a strong te
 </tr>
 <tr>
 <td>
-
-- Python:
-  - Numeric Computing: Numpy, Scipy
-  - Visualization: Matplotlib, Seaborn
-  - Data Analysis: Pandas, Polars
-  - MNE-Python
-  - MNE-BIDS
-  - MNE-Features
-  - PyTorch: CNNs, GANs, VAEs
-- Julia:
-  - Turing
-  - Flux
-  - Makie
-
+  <ul>
+    <li>Python</li>
+    <ul>
+      <li>Numeric Computing: Numpy, Scipy</li>
+      <li>Vizualization: Matplotlib, Seaborn</li>
+      <li>Data Analysis: Pandas, Polars</li>
+      <li>MNE-Python</li>
+      <li>MNE-BIDS</li>
+      <li>MNE-Features</li>
+      <li>PyTorch: CNNs, GANs, VAEs</li>
+    </ul>
+    <li>Julia</li>
+    <ul>
+      <li>Turing</li>
+      <li>Flux</li>
+      <li>Makie</li>
+    </ul>
+  </ul>
 </td>
 <td>
-
-- gTec: EEG
-- Brain Products: EEG, ECG, EDA
-- BioSemi: EEG
-- BioGraph Infiniti: Bio- and Neurofeedback
-- Bitbrain: EEG, ECG, EDA
-- Tobii Pro: Eye Tracking
-- Polar: H10, Verity Sense
-- BrainVision Analyzer
-- Experiment Design Software:
-  - Psychopy
-  - OpenVIBE
-  - NBS Presentation
-  - E-Prime
-- Lab Streaming Layer
-- Brain Imaging Data Structure (BIDS)
-- Biosignals Data Formats (XDF, EDF, BDF)
-
+  <ul>
+    <li>gTec: EEG</li>
+    <li>Brain Products: EEG, ECG, EDA</li>
+    <li>BioSemi: EEG</li>
+    <li>BioGraph Infiniti: Bio- and Neurofeedback</li>
+    <li>Bitbrain: EEG, ECG, EDA</li>
+    <li>Tobii Pro: Eye Tracking</li>
+    <li>Polar: H10, Verity Sense</li>
+    <li>BrainVision Analyzer</li>
+    <li>Experiment Design Software:
+      <ul>
+        <li>Psychopy</li>
+        <li>OpenVIBE</li>
+        <li>NBS Presentation</li>
+        <li>E-Prime</li>
+      </ul>
+    </li>
+    <li>Lab Streaming Layer</li>
+    <li>Brain Imaging Data Structure (BIDS)</li>
+    <li>Biosignals Data Formats (XDF, EDF, BDF)</li>
+  </ul>
 </td>
 <td>
-
-- Advanced git and github
-- Linux: Ubuntu, Arch, NixOS
-- Docker: Docker-Swarm, Portainer
-- Distributed Computing: Dask, MPI, Distributed Julia
-- Scientific writing: Jupyter, Latex, Pandoc, Quarto
-
+  <ul>
+    <li>Advanced git and github</li>
+    <li>Linux: Ubuntu, Arch, NixOS</li>
+    <li>Docker: Docker-Swarm, Portainer</li>
+    <li>Distributed Computing: Dask, MPI, Distributed Julia</li>
+    <li>Scientific writing: Jupyter, Latex, Pandoc, Quarto</li>
+  </ul>
 </td>
 </tr>
 </table>
