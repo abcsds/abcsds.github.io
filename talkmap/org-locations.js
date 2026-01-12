@@ -1,22 +1,42 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
+    "High Performance Computing with Julia<br />Natural Sciences Faculty, Guanajuato State University; Guanajuato, Mexico",
+    20.9876996,
+    -101.0
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "The influence of visual representation factors on bio signals and its relation to Presence in Virtual Reality Environments<br />La Sapienza University; Rome, Italy",
+    41.8933203,
+    12.4829321
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
+    "Clubes de Ciencia<br />Nattural Sciences Faculty, Guanajuato State University; Guanajuato, Mexico",
+    20.9876996,
+    -101.0
   ],
   [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
+    "TimeLayers<br />Oxford University; Oxford, UK",
+    51.7520131,
+    -1.2578499
+  ],
+  [
+    "Variational Autoencorders: the cognitive scientist's favorite deep learning tool<br />RealRaum; Graz, Austria",
+    47.0708678,
+    15.4382786
+  ],
+  [
+    "Python Workshop<br />Engineering Faculty, Guanajuato State University; Salamanca, Mexico",
+    20.6511359,
+    -101.166767
+  ],
+  [
+    "Ni\u00f1os en la ciencia<br />Municipalities of Guanajuato, M\u00e9xico; Guanajuato, Mexico",
+    20.9876996,
+    -101.0
+  ],
+  [
+    "Emotion Analysis using Heart Rate Data<br />Johannes Kepler University Linz; Linz, Austria",
+    48.3059078,
+    14.286198
   ]
 ];
