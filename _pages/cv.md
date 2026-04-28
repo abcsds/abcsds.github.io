@@ -15,13 +15,17 @@ Are you building a team to unravel the misteries of the mind? I have a strong te
 
  - Ph.D in Brain-Computer Interfaces/Informatics, Graz University of Technology, 2025 (expected) Thesis: Cognitive Modeling for Affective Computing
  - M.Sc. in Data Analytics, Hildesheim University, 2020 Thesis: Emotion Representation in Large Language Model Embeddings
- - B.Sc. in Computer Science, Guanajuato University, 2016 Thesis: Emotion Sonification in Social Networks
+ - B.Sc. in Information Systems, Guanajuato University, 2017 Thesis: Emotion Sonification in Social Networks
 
 # Experience
 
-- 2020 - 2022: Assistant Researcher
+- 2026 - present: Statistician
+  - Medical University Graz: Institute of Medical Informatics, Statistics and Documentation
+  - Duties include: Experimental Design, Data Analysis, and Statistical Consultancy
+
+- 2020 - 2022: Research Assistant / PhD student
   - Graz University of Technology: Institute of Neural Engineering
-  - Duties includes: Experimental Design, Data Analysis, and Teaching
+  - Duties included: Experimental Design, Data Analysis, Scientific Project Administration, Grant Proposal Writing, Scientific Review, Scientific Communication, Community Engagement, and Teaching
 
 - 2018 - 2019: Behavioral Data Analyst
   - Hildesheim University: Institute of General Psychology
@@ -37,9 +41,10 @@ Are you building a team to unravel the misteries of the mind? I have a strong te
 
 # Languages
 
-- Spanish: Native
 - English: Native
-- German: C1
+- Spanish: Native
+- German: Working Proficiency
+- Esperanto: B2
 
 # Skills
 
@@ -105,6 +110,20 @@ Are you building a team to unravel the misteries of the mind? I have a strong te
 </tr>
 </table>
 
+
+# Open Source Projects
+
+- [**Psychopy-NixOS**](https://github.com/abcsds/Pyschopy-NixOS) — Reliable nix-managed PsychoPy launcher for any NixOS host.
+- [**DFA.jl**](https://github.com/abcsds/DFA.jl) — Detrended Fluctuation Analysis: a Julia package for the analysis of long-range correlations in time series.
+- [**HRBand-LSL**](https://github.com/abcsds/HRBand-LSL) — A high-precision biosignal acquisition tool for heart rate data using Lab Streaming Layer.
+- [**VizHRV**](https://github.com/abcsds/VizHRV) — A biosignal visualization tool for heart rate data using Makie.jl and Lab Streaming Layer.
+- [**DDMViz**](https://github.com/abcsds/DDMViz) — A visualization tool for the Drift Diffusion Model.
+- [**NBack**](https://github.com/abcsds/Nback) — A cognitive task for the assessment of working memory.
+- [**ANT**](https://github.com/abcsds/ANT) — Attentional Networks Task: a cognitive task for the assessment of attentional networks.
+- [**DualTask**](https://github.com/abcsds/DualTask) — A cognitive task for the assessment of divided attention.
+- [**RDM**](https://github.com/abcsds/RDM) — Random Dot Motion Task: a cognitive task for the assessment of perceptual decision making.
+- [**FFMQ**](https://github.com/abcsds/FFMQ) — A cognitive task for the digital assessment of mindfulness using the Five Facet Mindfulness Questionnaire.
+- [**FaceOddball**](https://github.com/abcsds/FaceOddball) — An oddball cognitive task using faces as target stimuli.
 
 # Publications
   <ul>{% for post in site.publications reversed %}

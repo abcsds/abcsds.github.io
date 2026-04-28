@@ -79,9 +79,13 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
+  workshops:
+    title: 'Workshops'
+  posters:
+    title: 'Posters'
   open_source:
     title: 'Open Source'
 
