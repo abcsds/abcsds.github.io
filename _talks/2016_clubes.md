@@ -3,7 +3,7 @@ title: "Clubes de Ciencia"
 collection: talks
 type: "Talk"
 permalink: /talks/2016_clubes
-venue: "Nattural Sciences Faculty, Guanajuato State University"
+venue: "Natural Sciences Faculty, University of Guanajuato"
 date: 2016-08-06
 location: "Guanajuato, Mexico"
 ---

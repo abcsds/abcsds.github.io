@@ -8,4 +8,4 @@ date: 2022-10-26
 location: "Rome, Italy"
 ---
 
-Presented collaborative work on VR Presence at the [IEEE international conference on Metrology for eXtended Reality and Artificial Intelligence and Neural Engineering (MetroXRAINE)](https://metroxraine.org/metroxraine2022/home)
+I presented collaborative work on VR Presence at the [IEEE International Conference on Metrology for Extended Reality, Artificial Intelligence and Neural Engineering (MetroXRAINE)](https://metroxraine.org/metroxraine2022/home).

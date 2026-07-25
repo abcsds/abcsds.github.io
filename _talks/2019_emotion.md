@@ -8,4 +8,4 @@ date: 2019-08-26
 location: "Linz, Austria"
 ---
 
-Presenting the results of my research on the use of heart rate data for emotion analysis at the [DEXA 2019](https://www.dexa.org/) conference.
+I presented my research on emotion analysis from heart rate data at the [DEXA 2019](https://www.dexa.org/) conference.
