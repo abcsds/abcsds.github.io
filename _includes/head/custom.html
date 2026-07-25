@@ -21,4 +21,20 @@
   plausible.init()
 </script>
 
+<!-- Track CTA (Projects) and contact clicks as Plausible custom events -->
+<script>
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest ? e.target.closest("a") : null;
+    if (!a || typeof window.plausible !== "function") return;
+    var href = a.getAttribute("href") || "";
+    if (href.indexOf("docs.albertobarradas.com") !== -1) {
+      window.plausible("Projects CTA", { props: { href: href } });
+    } else if (href.indexOf("mailto:") === 0) {
+      window.plausible("Contact: Email");
+    } else if (a.closest(".author__urls")) {
+      window.plausible("Contact: Link", { props: { network: (a.textContent || "").trim() } });
+    }
+  }, true);
+</script>
+
 <!-- end custom head snippets -->

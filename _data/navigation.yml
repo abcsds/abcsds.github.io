@@ -25,6 +25,9 @@ main:
     
   - title: "CV"
     url: /cv/
-    
+
+  - title: "Projects"
+    url: https://docs.albertobarradas.com/
+
   # - title: "Guide"
   #   url: /markdown/
