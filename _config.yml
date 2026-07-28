@@ -164,8 +164,6 @@ include:
   - _pages
   - files
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
   - .asset-cache
   - .bundle
   - .github
@@ -311,7 +309,19 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-polyglot
   - jemoji
+
+# Multi-language support (jekyll-polyglot) — served via GitHub Actions build,
+# not GitHub Pages' native build, since this plugin isn't in its safe whitelist.
+# Translated files use a locale suffix: about.md (en) / about.es.md / about.de.md / about.eo.md
+languages: ["en", "es", "de", "eo"]
+default_lang: "en"
+exclude_from_localization: ["assets", "images", "files", "css", "javascript"]
+parallel_localization: false
+# Also set site.locale to the active language per build pass, so the theme's
+# existing site.data.ui-text[site.locale] lookups and <html lang> attr just work.
+lang_vars: ["locale"]
 
 # Mimic GitHub Pages with --safe
 whitelist:

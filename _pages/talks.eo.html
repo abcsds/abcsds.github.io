@@ -1,0 +1,19 @@
+---
+layout: archive
+title: "Prelegoj kaj prezentoj"
+permalink: /talks/
+lang: eo
+author_profile: true
+---
+
+Komuniki mian esploradon estas grava parto de mia laboro. Jen kelkaj el la prelegoj kaj prezentoj, kiujn mi faris tra la jaroj.
+
+{% if site.talkmap_link == true %}
+
+<p style="text-decoration:underline;"><a href="/talkmap.html">Vidu mapon de ĉiuj lokoj, kie mi faris prelegon!</a></p>
+
+{% endif %}
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}

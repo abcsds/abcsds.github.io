@@ -1,0 +1,15 @@
+main:
+  - title: "Publikationen"
+    url: /publications/
+
+  - title: "Vorträge"
+    url: /talks/
+
+  - title: "Lehre"
+    url: /teaching/
+
+  - title: "Lebenslauf"
+    url: /cv/
+
+  - title: "Projekte"
+    url: https://docs.albertobarradas.com/

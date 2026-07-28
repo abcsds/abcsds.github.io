@@ -1,0 +1,19 @@
+---
+layout: archive
+title: "Charlas y presentaciones"
+permalink: /talks/
+lang: es
+author_profile: true
+---
+
+Comunicar mi investigación es una parte importante de mi trabajo. Aquí tienes algunas de las charlas y presentaciones que he dado a lo largo de los años.
+
+{% if site.talkmap_link == true %}
+
+<p style="text-decoration:underline;"><a href="/talkmap.html">¡Mira un mapa de todos los lugares donde he dado una charla!</a></p>
+
+{% endif %}
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}

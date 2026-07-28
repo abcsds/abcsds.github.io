@@ -14,12 +14,24 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
-<!-- Privacy-friendly analytics by Plausible -->
-<script async src="https://an.barcha.xyz/js/pa-e_xv6BCn2XAsrbE9OzRWc.js"></script>
+<!-- Privacy-friendly analytics by Plausible (one Plausible site per language) -->
+{% case site.active_lang %}
+  {% when "es" %}
+    <script async src="https://an.barcha.xyz/js/pa-mqXEqJTk4Mrtiplt28ysS.js"></script>
+  {% when "de" %}
+    <script async src="https://an.barcha.xyz/js/pa-4HNkEs7S2VOLqgqbXs7Op.js"></script>
+  {% when "eo" %}
+    <script async src="https://an.barcha.xyz/js/pa-inL88Pn9fh__VJS8AsU1T.js"></script>
+  {% else %}
+    <script async src="https://an.barcha.xyz/js/pa-e_xv6BCn2XAsrbE9OzRWc.js"></script>
+{% endcase %}
 <script>
   window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
   plausible.init()
 </script>
+
+<!-- Multi-language SEO: hreflang alternates for this page across all site languages -->
+{% i18n_headers %}
 
 <!-- Track CTA (Projects) and contact clicks as Plausible custom events -->
 <script>

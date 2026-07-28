@@ -1,0 +1,19 @@
+---
+layout: archive
+title: "Vorträge und Präsentationen"
+permalink: /talks/
+lang: de
+author_profile: true
+---
+
+Die Kommunikation meiner Forschung ist ein wichtiger Teil meiner Arbeit. Hier sind einige der Vorträge und Präsentationen, die ich im Laufe der Jahre gehalten habe.
+
+{% if site.talkmap_link == true %}
+
+<p style="text-decoration:underline;"><a href="/talkmap.html">Sehen Sie eine Karte aller Orte, an denen ich einen Vortrag gehalten habe!</a></p>
+
+{% endif %}
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}

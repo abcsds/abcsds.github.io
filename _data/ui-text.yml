@@ -390,5 +390,45 @@ zh-HK: &DEFAULT_ZH_HK
 zh-TW:
   <<: *DEFAULT_ZH_HK
 
+# Esperanto
+# --------------
+eo: &DEFAULT_EO
+  page                       : "Paĝo"
+  pagination_previous        : "Antaŭa"
+  pagination_next            : "Sekva"
+  breadcrumb_home_label      : "Hejmo"
+  breadcrumb_separator       : "/"
+  toc_label                  : "En Ĉi Tiu Paĝo"
+  ext_link_label             : "Rekta Ligilo"
+  less_than                  : "malpli ol"
+  minute_read                : "minuto da legado"
+  share_on_label             : "Kunhavigi per"
+  meta_label                 :
+  tags_label                 : "Etikedoj:"
+  categories_label           : "Kategorioj:"
+  date_label                 : "Publikigita:"
+  comments_label             : "Lasi Komenton"
+  comments_title             : "Komentoj"
+  more_label                 : "Legu Pli"
+  related_label              : "Vi Eble Ankaŭ Ŝatos"
+  follow_label               : "Sekvi:"
+  feed_label                 : "Fluo"
+  powered_by                 : "Funkciigita de"
+  website_label              : "Retejo"
+  email_label                : "Retpoŝto"
+  recent_posts               : "Lastaj Afiŝoj"
+  undefined_wpm              : "Nedifinita parametro words_per_minute en _config.yml"
+  comment_form_info          : "Via retpoŝta adreso ne estos publikigita. Devigaj kampoj estas markitaj"
+  comment_form_comment_label : "Komento"
+  comment_form_md_info       : "Markdown estas subtenata."
+  comment_form_name_label    : "Nomo"
+  comment_form_email_label   : "Retpoŝta adreso"
+  comment_form_website_label : "Retejo (nedeviga)"
+  comment_btn_submit         : "Sendi Komenton"
+  comment_btn_submitted      : "Sendita"
+  comment_success_msg       : "Dankon pro via komento! Ĝi aperos sur la retejo post aprobo."
+  comment_error_msg          : "Bedaŭrinde okazis eraro dum via sendo. Bonvolu certigi, ke ĉiuj devigaj kampoj estas plenigitaj, kaj provu denove."
+  loading_label              : "Ŝarĝante..."
+
 # Another locale
 # --------------

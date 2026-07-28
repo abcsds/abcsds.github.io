@@ -1,0 +1,15 @@
+main:
+  - title: "Publikaĵoj"
+    url: /publications/
+
+  - title: "Prelegoj"
+    url: /talks/
+
+  - title: "Instruado"
+    url: /teaching/
+
+  - title: "Vivresumo"
+    url: /cv/
+
+  - title: "Projektoj"
+    url: https://docs.albertobarradas.com/

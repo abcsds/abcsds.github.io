@@ -18,6 +18,21 @@
               <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
+          <li class="masthead__menu-item persist" id="lang-switcher">
+            {% for lang in site.languages %}
+              {% if lang == site.active_lang %}
+                <strong>{{ lang | upcase }}</strong>
+              {% else %}
+                {% if lang == site.default_lang %}
+                  {% assign lang_path = "/" %}
+                {% else %}
+                  {% assign lang_path = "/" | append: lang | append: "/" %}
+                {% endif %}
+                <a {% static_href %}href="{{ lang_path }}"{% endstatic_href %}>{{ lang | upcase }}</a>
+              {% endif %}
+              {% unless forloop.last %} · {% endunless %}
+            {% endfor %}
+          </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>

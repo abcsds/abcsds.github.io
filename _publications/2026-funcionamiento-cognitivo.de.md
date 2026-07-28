@@ -1,0 +1,13 @@
+---
+title: "Funcionamiento Cognitivo en Deportes Individuales vs Deportes de Conjunto"
+collection: publications
+category: manuscripts
+permalink: /publication/2026-funcionamiento-cognitivo
+lang: de
+excerpt: 'Eine vergleichende Studie zur kognitiven Funktionsweise von Athletinnen und Athleten aus Einzel- und Mannschaftssportarten.'
+date: 2026-01-01
+venue: 'Cuadernos de Psicología del Deporte'
+slidesurl: ''
+paperurl: ''
+citation: 'Gómez-Rosales, A. de J., Ortiz-Jiménez, X. A., & Barradas-Chacón, L. A. (2026). Funcionamiento Cognitivo en Deportes Individuales vs Deportes de Conjunto. Cuadernos de Psicología del Deporte, 26(2), 193–208.'
+---
