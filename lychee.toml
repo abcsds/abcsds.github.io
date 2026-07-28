@@ -1,0 +1,25 @@
+# Config for the link-check GitHub Action (.github/workflows/link-check.yml)
+# Run locally with: nix shell nixpkgs#lychee --command lychee --config lychee.toml ./_site
+
+max_concurrency = 8
+timeout = 20
+retry_wait_time = 3
+max_retries = 2
+
+# Some sites (e.g. YouTube) return non-200 status to non-browser clients.
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+
+accept = [200, 201, 202, 203, 204, 206, 301, 302, 303, 307, 308, 403, 429]
+
+# Resolve root-relative links (e.g. /files/cv.pdf) against the built site.
+root_dir = "_site"
+
+exclude_path = ["_site/assets"]
+
+exclude = [
+  # Social share widgets that block non-browser/CI requests (bot walls or login gates),
+  # so they can't be reliably checked from CI even though they work for real visitors.
+  "^https://www\\.facebook\\.com/sharer/",
+  "^https://www\\.linkedin\\.com/shareArticle",
+  "^https://www\\.youtube\\.com/watch",
+]
