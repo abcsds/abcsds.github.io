@@ -13,7 +13,7 @@ La colaboración impulsa el progreso científico. Construyo métodos abiertos pa
 
 ## Sobre mí
 
-Mi nombre es Luis Alberto Barradas Chacón. Soy candidato a doctor en la TU Graz. Soy facilitador de mindfulness [certificado](/files/certificates/2024_Mindfulness.pdf) y miembro de la Sociedad Mexicana de Bio- y Neurofeedback, así como del [grupo mexicano de Bioseñales](https://biosenales.com/). Esta página reúne parte de mi trabajo como ingeniero, analista de datos conductuales, estadístico y científico cognitivo.
+Mi nombre es Luis Alberto Barradas Chacón. Soy candidato a doctor en la TU Graz. Soy facilitador de mindfulness [certificado](/files/certificates/2024_Mindfulness.pdf) y miembro de la Sociedad Mexicana de Bio- y Neurofeedback, así como del [grupo mexicano de Bioseñales](https://biosenales.com/). Esta página reúne parte de mi trabajo como ingeniero, analista de datos conductuales, estadístico y científico cognitivista.
 
 ## Diseño experimental
 

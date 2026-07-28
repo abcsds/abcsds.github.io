@@ -18,24 +18,32 @@
               <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
-          <li class="masthead__menu-item persist" id="lang-switcher">
-            {% for lang in site.languages %}
-              {% if lang == site.active_lang %}
-                <strong>{{ lang | upcase }}</strong>
-              {% else %}
-                {% if lang == site.default_lang %}
-                  {% assign lang_path = "/" %}
-                {% else %}
-                  {% assign lang_path = "/" | append: lang | append: "/" %}
-                {% endif %}
-                <a {% static_href %}href="{{ lang_path }}"{% endstatic_href %}>{{ lang | upcase }}</a>
-              {% endif %}
-              {% unless forloop.last %} · {% endunless %}
-            {% endfor %}
-          </li>
-          <li id="theme-toggle" class="masthead__menu-item persist tail">
+          <li id="theme-toggle" class="masthead__menu-item persist">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>
+          <li class="masthead__menu-item persist tail" id="lang-switcher">
+            <details style="display: inline-block; position: relative;">
+              <summary style="cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 0.25em; font-weight: normal;">
+                {{ site.active_lang | upcase }}<span aria-hidden="true">&#9662;</span>
+              </summary>
+              <div style="position: absolute; right: 0; top: 100%; margin-top: 0.3em; padding: 0.3em 0; display: flex; flex-direction: column; white-space: nowrap; background: var(--global-bg-color); border: 1px solid var(--global-border-color); z-index: 30;">
+                {% for lang in site.languages %}
+                  {% unless lang == site.active_lang %}
+                    {% if lang == site.default_lang %}
+                      {% assign lang_path = "/" %}
+                    {% else %}
+                      {% assign lang_path = "/" | append: lang | append: "/" %}
+                    {% endif %}
+                    <a style="padding: 0.3em 1em; font-weight: normal;" {% static_href %}href="{{ lang_path }}"{% endstatic_href %}>{{ lang | upcase }}</a>
+                  {% endunless %}
+                {% endfor %}
+              </div>
+            </details>
+          </li>
+          <style>
+            #lang-switcher summary::-webkit-details-marker { display: none; }
+            #lang-switcher summary::marker { content: ""; }
+          </style>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

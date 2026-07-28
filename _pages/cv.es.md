@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-Soy un científico cognitivo con una sólida formación técnica y teórica y más de 15 años de experiencia en equipos interdisciplinarios. Diseño experimentos de ciencia cognitiva con alta precisión y fiabilidad técnica utilizando herramientas completamente libres y de código abierto; la apertura y la reproducibilidad son mi prioridad. Mientras termino mi doctorado, estoy buscando un laboratorio que me reciba como investigador postdoctoral, donde pueda trabajar como parte de un equipo. Si crees que podría encajar bien, no dudes en contactarme. [Encuentra mi CV aquí](/files/cv.pdf)
+Soy un científico cognitivista con una sólida formación técnica y teórica y más de 15 años de experiencia en equipos interdisciplinarios. Diseño experimentos de ciencia cognitiva con alta precisión y fiabilidad técnica utilizando herramientas completamente libres y de código abierto; la apertura y la reproducibilidad son mi prioridad. Mientras termino mi doctorado, estoy buscando un laboratorio que me reciba como investigador postdoctoral, donde pueda trabajar como parte de un equipo. Si crees que podría encajar bien, no dudes en contactarme. [Encuentra mi CV aquí](/files/cv.pdf)
 
 # Educación
 
