@@ -12,6 +12,12 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 accept = [200, 201, 202, 203, 204, 206, 301, 302, 303, 307, 308, 403, 429]
 
 # Resolve root-relative links (e.g. /files/cv.pdf) against the built site.
+# base_url matches site.github.url (the domain base_path falls back to when
+# _config.yml sets no explicit `url:`), so absolute self-links like
+# https://abcsds.github.io/assets/... resolve against the local build instead
+# of hitting the live network — avoids both wasted requests and a race with
+# the concurrent pages-deploy workflow on fresh pushes.
+base_url = "https://abcsds.github.io"
 root_dir = "_site"
 
 exclude_path = ["_site/assets"]
