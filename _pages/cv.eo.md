@@ -114,6 +114,7 @@ Mi estas kogna sciencisto kun forta teknika kaj teoria fono kaj pli ol 15 jaroj 
 
 # Malfermitkodaj Projektoj
 
+- [**HeartRateLab.jl**](https://github.com/abcsds/HeartRateLab.jl) — Julia-ilaro por la prilaborado, analizo, modelado kaj taksado de interbatintervaloj de la koro. Registrita en la Julia General-registro; prezentita ĉe JuliaCon 2026.
 - [**Psychopy-NixOS**](https://github.com/abcsds/Psychopy-NixOS) — Fidinda, nix-administrata PsychoPy-lanĉilo por iu ajn NixOS-gastigo.
 - [**DFA.jl**](https://github.com/abcsds/DFA.jl) — Detrended Fluctuation Analysis: Julia-pakaĵo por la analizo de long-distancaj korelacioj en temposerioj.
 - [**HRBand-LSL**](https://github.com/abcsds/HRBand-LSL) — Alt-preciza biosignal-akira ilo por korfrekvencaj datumoj, uzante Lab Streaming Layer.

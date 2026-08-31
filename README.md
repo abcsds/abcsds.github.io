@@ -3,6 +3,44 @@
 
 ![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
 
+# This fork (abcsds.github.io / albertobarradas.com)
+
+Deviations from the upstream Academic Pages template that are worth knowing before editing:
+
+- **Multilingual.** The site is built with [jekyll-polyglot](https://github.com/untra/polyglot) in `en`, `es`, `de`, `eo`. Translated files use a locale suffix — `cv.md` (en), `cv.es.md`, `cv.de.md`, `cv.eo.md`. Because polyglot is not in GitHub Pages' native plugin whitelist, the site is built and deployed by `.github/workflows/pages-deploy.yml`, not by Pages' own builder.
+- **Two CVs, one source.** `/cv/` renders `_pages/cv.md`; `/cv-json/` renders `_data/cv.json` through `_includes/cv-template.html`.
+
+## `_data/cv.json` is generated — never hand-edit it
+
+`_data/cv.json` is a **derived artifact**. It is built from the repository's own content:
+
+| Source | Feeds |
+| --- | --- |
+| `_config.yml` → `author:` | `basics` (name, email, location, profiles) |
+| `_pages/cv.md` | `education`, `work`, `skills`, `languages`, `portfolio`, `interests` |
+| `_publications/*.md` | `publications` |
+| `_talks/*.md` | `presentations` |
+| `_teaching/*.md` | `teaching` |
+
+Edit those, then regenerate:
+
+```bash
+scripts/update_cv_json.sh          # regenerate
+scripts/update_cv_json.sh --check  # exit 1 if the committed file is stale
+nix run .#cv-json                  # same, without needing Python in PATH
+nix flake check                    # verifies cv.json is in sync with its sources
+```
+
+CI regenerates the file on every deploy (the *Generate CV JSON* step in `pages-deploy.yml`), so the JSON CV cannot silently drift from the Markdown CV. Only English files are read from the collections — the `.es`/`.de`/`.eo` translations are skipped, otherwise every entry would appear four times.
+
+The generator (`scripts/cv_markdown_to_json.py`) is a rewrite of the upstream script, which produced an empty CV here: it assumed setext headings (`Education` + `======`) and `* ` bullets, while this fork's `cv.md` uses `# Education` and `- `; it globbed all four language variants; and it read `languages:` from `_config.yml`, which on a polyglot site is the list of *site locales*, not spoken languages. It now fails loudly rather than writing an empty CV.
+
+## Syncing with upstream
+
+`upstream` is `academicpages/academicpages.github.io`. Note that `.github/workflows/bad-pr.yml` and `close-tests.yml` are **template-repo housekeeping** — they auto-close issues and PRs on the template itself and have no useful behaviour on a personal fork. Review before merging upstream changes to them.
+
+---
+
 # Getting Started
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)

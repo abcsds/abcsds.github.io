@@ -1,152 +1,486 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Luis Alberto Barradas Chacón",
+    "email": "barradaschacon@student.tugraz.at",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://abcsds.github.io",
+    "summary": "Behavioral Data Analyst and Cognitive Scientist. Currently at TU Graz.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Graz",
+      "countryCode": "",
+      "region": "Austria"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=L5CH6IEAAAAJ"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0001-6756-5485"
+      },
+      {
+        "network": "Semantic Scholar",
+        "username": "",
+        "url": "https://www.semanticscholar.org/author/Luis-Alberto-Barradas-Chacon/2140770218"
+      },
+      {
+        "network": "ResearchGate",
+        "username": "",
+        "url": "https://www.researchgate.net/profile/Luis-Alberto-Barradas-Chacon"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "abcsds",
+        "url": "https://github.com/abcsds"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "company": "Medical University Graz",
+      "position": "Statistician",
+      "website": "",
+      "startDate": "2026",
+      "endDate": "present",
+      "summary": "Institute of Medical Informatics, Statistics and Documentation",
+      "highlights": [
+        "Part-time. Duties include: Statistical Consulting for the KAGes (hospitals and doctors in the state of Styria)"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "company": "Graz University of Technology",
+      "position": "Research Assistant / PhD student",
+      "website": "",
+      "startDate": "2020",
+      "endDate": "2022",
+      "summary": "Institute of Neural Engineering",
+      "highlights": [
+        "Duties included: Experimental Design, Data Analysis, Scientific Project Administration, Grant Proposal Writing, Scientific Review, Scientific Communication, Community Engagement, and Teaching"
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "company": "Hildesheim University",
+      "position": "Behavioral Data Analyst",
+      "website": "",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Institute of General Psychology",
+      "highlights": [
+        "Duties included: Experimental Design Implementation, Technological Development, and Data Analysis"
+      ]
+    },
+    {
+      "company": "LaSalle Bajío University",
+      "position": "Intern Data Analyst",
+      "website": "",
+      "startDate": "2016",
+      "endDate": "2017",
+      "summary": "Center for Neuroscience",
+      "highlights": [
+        "Duties included: Data Analysis for EEG, ECG, and Questionnaires"
+      ]
+    },
+    {
+      "company": "Tecnológico de Monterrey",
+      "position": "Technology Consultant",
+      "website": "",
+      "startDate": "2015",
+      "endDate": "2016",
+      "summary": "School of Government and Public Transformation",
+      "highlights": [
+        "Duties included: Technological Development and Consulting"
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "education": [
+    {
+      "institution": "Graz University of Technology",
+      "area": "Ph.D. in Informatics",
+      "studyType": "Ph.D.",
+      "startDate": "",
+      "endDate": "2027 (expected)",
+      "gpa": null,
+      "courses": [
+        "Field: Cognitive Science, specifically cognitive modeling",
+        "Thesis: Cognitive Modeling for Affective Computing"
+      ]
+    },
+    {
+      "institution": "Hildesheim University",
+      "area": "M.Sc. in Data Analytics",
+      "studyType": "M.Sc.",
+      "startDate": "",
+      "endDate": "2020",
+      "gpa": null,
+      "courses": [
+        "Thesis: Emotion Representation in Large Language Model Embeddings"
+      ]
+    },
+    {
+      "institution": "University of Guanajuato",
+      "area": "B.Sc. in Computer Systems Engineering (Ingeniería en Sistemas Computacionales)",
+      "studyType": "B.Sc.",
+      "startDate": "",
+      "endDate": "2017",
+      "gpa": null,
+      "courses": [
+        "Thesis: Emotion Sonification in Social Networks"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Scientific Programming and Data Analysis",
+      "level": "",
+      "keywords": [
+        "Python",
+        "Numeric Computing: Numpy, Scipy",
+        "Vizualization: Matplotlib, Seaborn",
+        "Data Analysis: Pandas, Polars",
+        "MNE-Python",
+        "MNE-BIDS",
+        "MNE-Features",
+        "PyTorch: CNNs, GANs, VAEs",
+        "Julia",
+        "Turing",
+        "Flux",
+        "Makie"
+      ]
+    },
+    {
+      "name": "Experimental Design and Neuroengineering",
+      "level": "",
+      "keywords": [
+        "gTec: EEG",
+        "Brain Products: EEG, ECG, EDA",
+        "BioSemi: EEG",
+        "BioGraph Infiniti: Bio- and Neurofeedback",
+        "Bitbrain: EEG, ECG, EDA",
+        "Tobii Pro: Eye Tracking",
+        "Polar: H10, Verity Sense",
+        "BrainVision Analyzer",
+        "Psychopy",
+        "OpenVIBE",
+        "NBS Presentation",
+        "E-Prime",
+        "Lab Streaming Layer",
+        "Brain Imaging Data Structure (BIDS)",
+        "Biosignals Data Formats (XDF, EDF, BDF)"
+      ]
+    },
+    {
+      "name": "Scientific Computing",
+      "level": "",
+      "keywords": [
+        "Advanced git and github",
+        "Linux: Ubuntu, Arch, NixOS",
+        "Docker: Docker-Swarm, Portainer",
+        "Distributed Computing: Dask, MPI, Distributed Julia",
+        "Scientific writing: Jupyter, Latex, Pandoc, Quarto"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native"
+    },
+    {
+      "language": "German",
+      "fluency": "Working Proficiency"
+    },
+    {
+      "language": "Esperanto",
+      "fluency": "Working Proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Service and leadership",
+      "keywords": [
+        "Urban gardener at the Graz University of Technology (currently paused)",
+        "Co-organizer of the FreiRaumFest Graz",
+        "Volunteer at Techo México (4+ years)",
+        "Science communicator in Guanajuato, Mexico (2 years)",
+        "Member of the local Hackerspace"
+      ]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Using The HeartRateLab.jl for Normative Evaluation of Heart Rate Variability from Open Datasets",
+      "publisher": "JuliaCon 2026",
+      "releaseDate": "2026-08-13",
+      "website": "https://github.com/abcsds/HeartRateLab.jl/blob/main/docs/poster/juliacon2026_poster.pdf",
+      "summary": "Normative HRV references built from open PhysioNet datasets with HeartRateLab.jl: one participant's paced-breathing recordings scored against both a general healthy population and a group of meditators — the same recording, two verdicts."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "The HeartRateLab.jl: a toolkit for heart beats time series",
+      "publisher": "JuliaCon 2026",
+      "releaseDate": "2026-08-12",
+      "website": "https://pretalx.com/juliacon-2026/talk/VZUPJA/",
+      "summary": "A Julia package for the processing, analysis, modeling and evaluation of heart Inter-Beat-Intervals (IBIs), presented as a long talk at JuliaCon 2026 in Mainz and registered in the Julia General registry."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Funcionamiento Cognitivo en Deportes Individuales vs Deportes de Conjunto",
+      "publisher": "Cuadernos de Psicología del Deporte",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "A comparative study of cognitive functioning between athletes from individual and team sports."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "High Performance Computing for Dynamical Systems and Bayesian Estimation with On-Demand Computing Resources",
+      "publisher": "MathPsych/ICCM 2025 Conference",
+      "releaseDate": "2025-07-25",
+      "website": "https://mathpsych.org/session/481",
+      "summary": "Workshop on High Performance Computing for Dynamical Systems and Bayesian Estimation at the MathPsych/ICCM 2025 Conference"
+    },
+    {
+      "name": "Mental Demand without brain signals: a practical approach to modeling the N-Back task",
+      "publisher": "MathPsych/ICCM 2025 Conference",
+      "releaseDate": "2025-07-25",
+      "website": "https://mathpsych.org/presentation/2018",
+      "summary": "Accessible, low-cost, and open-source approaches to modeling cognitive mental demand using subjective reports, heart rate variability, eye-tracking, and psychochronometric behavior."
+    },
+    {
+      "name": "The Impact of Light Conditions on Neural Affect Classification: A Deep Learning Approach",
+      "publisher": "Machine Learning and Knowledge Extraction",
+      "releaseDate": "2024-01-18",
+      "website": "https://doi.org/10.3390/make6010011",
+      "summary": "EEG recorded from 30 participants viewing affective images in a virtual art gallery under warm and cold lighting, with deep learning used to classify affect state and light condition."
+    },
+    {
+      "name": "Effects of handedness on brain oscillatory activity during imagery and execution of upper limb movements",
+      "publisher": "Frontiers in Psychology",
+      "releaseDate": "2023-06-13",
+      "website": "https://doi.org/10.3389/fpsyg.2023.1161613",
+      "summary": "Handedness shapes event-related desynchronization/synchronization patterns during motor imagery and execution, with right-handed participants showing more bilateral activation than left-handed ones."
+    },
+    {
+      "name": "Stylized faces enhance ERP features used for the detection of emotional responses",
+      "publisher": "Frontiers in Human Neuroscience",
+      "releaseDate": "2023-04-27",
+      "website": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2023.1160800/full",
+      "summary": "It is found that artificially enhanced human faces with exaggerated, cartoonish visual features significantly improve some commonly used neural correlates of emotion as measured by event-related potentials (ERPs)."
+    },
+    {
+      "name": "The influence of visual representation factors on bio signals and its relation to Presence in Virtual Reality Environments",
+      "publisher": "MetroXRAINE 2022",
+      "releaseDate": "2022-10-26",
+      "website": "",
+      "summary": "Strong inter-individual differences in heart rate (HR) and heart rate variability (HRV) indicate an influence of visual representation factors during presence in virtual reality (VR) environments."
+    },
+    {
+      "name": "Roadmap on signal processing for next generation measurement systems",
+      "publisher": "Measurement Science and Technology",
+      "releaseDate": "2021-11-16",
+      "website": "https://doi.org/10.1088/1361-6501/ac2dbd",
+      "summary": "A multi-author roadmap of the state of the art in signal processing for next generation measurement systems, contributing the section on EEG sensors and signal processing."
+    },
+    {
+      "name": "Emotion analysis using heart rate data",
+      "publisher": "DEXA 2019",
+      "releaseDate": "2019-08-29",
+      "website": "https://abcsds.github.io/files/papers/2019_dexa.pdf",
+      "summary": "Classifying emotional states from heart rate data, presented at the DEXA 2019 international workshops."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
+      "name": "The HeartRateLab.jl: a toolkit for heart beats time series",
+      "event": "JuliaCon 2026, Johannes Gutenberg University",
+      "date": "2026-08-12",
+      "location": "Mainz, Germany",
       "description": ""
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
+      "name": "Variational Autoencoders: the cognitive scientist's favorite deep learning tool",
+      "event": "RealRaum",
+      "date": "2025-10-24",
+      "location": "Graz, Austria",
       "description": ""
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
+      "name": "The influence of visual representation factors on bio signals and its relation to Presence in Virtual Reality Environments",
+      "event": "La Sapienza University",
+      "date": "2022-10-26",
+      "location": "Rome, Italy",
       "description": ""
     },
     {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
+      "name": "Emotion Analysis using Heart Rate Data",
+      "event": "Johannes Kepler University Linz",
+      "date": "2019-08-26",
+      "location": "Linz, Austria",
+      "description": ""
+    },
+    {
+      "name": "High Performance Computing with Julia",
+      "event": "Natural Sciences Faculty, University of Guanajuato",
+      "date": "2016-12-16",
+      "location": "Guanajuato, Mexico",
+      "description": ""
+    },
+    {
+      "name": "Clubes de Ciencia",
+      "event": "Natural Sciences Faculty, University of Guanajuato",
+      "date": "2016-08-06",
+      "location": "Guanajuato, Mexico",
+      "description": ""
+    },
+    {
+      "name": "TimeLayers",
+      "event": "Oxford University",
+      "date": "2016-02-18",
+      "location": "Oxford, UK",
+      "description": ""
+    },
+    {
+      "name": "Python Workshop",
+      "event": "Engineering Faculty, University of Guanajuato",
+      "date": "2014-06-03",
+      "location": "Salamanca, Mexico",
+      "description": ""
+    },
+    {
+      "name": "Niños en la ciencia",
+      "event": "Municipalities of Guanajuato, Mexico",
+      "date": "2013-12-01",
+      "location": "Guanajuato, Mexico",
       "description": ""
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
+      "course": "Neureuroimaging",
+      "institution": "Technische Universität Graz",
+      "date": "2022-06-01",
+      "role": "Undergraduate Laboratory",
       "description": ""
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
+      "course": "Neurophysiology and Information Processing in Humans",
+      "institution": "Technische Universität Graz",
+      "date": "2022-01-01",
+      "role": "Undergraduate Laboratory",
+      "description": ""
+    },
+    {
+      "course": "Neureuroimaging",
+      "institution": "Technische Universität Graz",
+      "date": "2021-06-01",
+      "role": "Undergraduate Laboratory",
+      "description": ""
+    },
+    {
+      "course": "Neurophysiology and Information Processing in Humans",
+      "institution": "Technische Universität Graz",
+      "date": "2021-01-01",
+      "role": "Undergraduate Laboratory",
+      "description": ""
+    },
+    {
+      "course": "Neurophysiology and Information Processing in Humans",
+      "institution": "Technische Universität Graz",
+      "date": "2020-01-01",
+      "role": "Undergraduate Laboratory",
       "description": ""
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
+      "name": "HeartRateLab.jl",
+      "category": "Open Source",
       "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "url": "https://github.com/abcsds/HeartRateLab.jl",
+      "description": "A Julia toolkit for the processing, analysis, modeling and evaluation of heart Inter-Beat-Intervals. Registered in the Julia General registry; presented at JuliaCon 2026."
+    },
+    {
+      "name": "Psychopy-NixOS",
+      "category": "Open Source",
+      "date": "",
+      "url": "https://github.com/abcsds/Psychopy-NixOS",
+      "description": "Reliable nix-managed PsychoPy launcher for any NixOS host."
+    },
+    {
+      "name": "DFA.jl",
+      "category": "Open Source",
+      "date": "",
+      "url": "https://github.com/abcsds/DFA.jl",
+      "description": "Detrended Fluctuation Analysis: a Julia package for the analysis of long-range correlations in time series."
+    },
+    {
+      "name": "HRBand-LSL",
+      "category": "Open Source",
+      "date": "",
+      "url": "https://github.com/abcsds/HRBand-LSL",
+      "description": "A high-precision biosignal acquisition tool for heart rate data using Lab Streaming Layer."
+    },
+    {
+      "name": "VizHRV",
+      "category": "Open Source",
+      "date": "",
+      "url": "https://github.com/abcsds/VizHRV",
+      "description": "A biosignal visualization tool for heart rate data using Makie.jl and Lab Streaming Layer."
+    },
+    {
+      "name": "DDMViz",
+      "category": "Open Source",
+      "date": "",
+      "url": "https://github.com/abcsds/DDMViz",
+      "description": "A visualization tool for the Drift Diffusion Model."
+    },
+    {
+      "name": "NBack",
+      "category": "Open Source",
+      "date": "",
+      "url": "https://github.com/abcsds/Nback",
+      "description": "A cognitive task for the assessment of working memory."
+    },
+    {
+      "name": "ANT",
+      "category": "Open Source",
+      "date": "",
+      "url": "https://github.com/abcsds/ANT",
+      "description": "Attention Network Test: a cognitive task for the assessment of attentional networks."
+    },
+    {
+      "name": "DualTask",
+      "category": "Open Source",
+      "date": "",
+      "url": "https://github.com/abcsds/DualTask",
+      "description": "A cognitive task for the assessment of divided attention."
+    },
+    {
+      "name": "RDM",
+      "category": "Open Source",
+      "date": "",
+      "url": "https://github.com/abcsds/RDM",
+      "description": "Random Dot Motion Task: a cognitive task for the assessment of perceptual decision making."
+    },
+    {
+      "name": "FFMQ",
+      "category": "Open Source",
+      "date": "",
+      "url": "https://github.com/abcsds/FFMQ",
+      "description": "A cognitive task for the digital assessment of mindfulness using the Five Facet Mindfulness Questionnaire."
+    },
+    {
+      "name": "FaceOddball",
+      "category": "Open Source",
+      "date": "",
+      "url": "https://github.com/abcsds/FaceOddball",
+      "description": "An oddball cognitive task using faces as target stimuli."
     }
   ]
 }

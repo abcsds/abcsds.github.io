@@ -1,13 +1,16 @@
 name: Jekyll build
 
 on:
-  # Run after bad-pr check
-  workflow_run:
-    workflows: ["Cleanup bad PR"]
+  # Upstream chained this to the template's "Cleanup bad PR" workflow, which
+  # only makes sense on the template repo itself. That workflow is removed from
+  # this fork, so build directly on pushes and PRs instead.
+  push:
     branches: [main]
-    types:
-      - completed
-      
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+
 permissions:
   contents: read
 

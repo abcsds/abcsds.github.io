@@ -34,6 +34,22 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
+      # _data/cv.json is derived from _config.yml + _pages/cv.md + the
+      # collections. Regenerating it here means the JSON CV at /cv-json/ can
+      # never drift from the Markdown CV at /cv/, however the commit was made.
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate CV JSON
+        run: |
+          python3 -m pip install --quiet pyyaml
+          python3 scripts/cv_markdown_to_json.py \
+            --input _pages/cv.md \
+            --output _data/cv.json \
+            --config _config.yml
+
       - name: Build site
         env:
           JEKYLL_ENV: production
