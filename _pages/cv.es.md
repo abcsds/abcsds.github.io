@@ -114,7 +114,7 @@ Soy un científico cognitivista con una sólida formación técnica y teórica y
 
 # Proyectos de Código Abierto
 
-- [**HeartRateLab.jl**](https://github.com/abcsds/HeartRateLab.jl) — Un conjunto de herramientas en Julia para el procesamiento, análisis, modelado y evaluación de los intervalos entre latidos del corazón. Registrado en el registro General de Julia; presentado en JuliaCon 2026.
+- [**HeartRateLab.jl**](https://github.com/abcsds/HeartRateLab.jl) — A Julia package for heart rate analysis based on time series of inter-beat intervals (IBIs).
 - [**Psychopy-NixOS**](https://github.com/abcsds/Psychopy-NixOS) — Lanzador de PsychoPy gestionado con Nix, confiable, para cualquier host NixOS.
 - [**DFA.jl**](https://github.com/abcsds/DFA.jl) — Detrended Fluctuation Analysis (Análisis de Fluctuación sin Tendencia): un paquete de Julia para el análisis de correlaciones de largo alcance en series temporales.
 - [**HRBand-LSL**](https://github.com/abcsds/HRBand-LSL) — Una herramienta de adquisición de bioseñales de alta precisión para datos de frecuencia cardíaca utilizando Lab Streaming Layer.

@@ -170,14 +170,10 @@ def parse_basics(config):
         "profiles": [],
     }
 
-    if author.get("bio"):
-        basics["summary"] = author["bio"]
-    if author.get("employer"):
-        basics["summary"] = (
-            f"{basics['summary']}. Currently at {author['employer']}."
-            if basics["summary"]
-            else f"Currently at {author['employer']}."
-        )
+    # `summary` is Beto's `bio:` verbatim. Do NOT compose sentences around it
+    # (an earlier version appended "Currently at <employer>.", which put
+    # assistant-authored prose into a document that speaks as him).
+    basics["summary"] = author.get("bio", "") or ""
 
     loc = (author.get("location") or "").strip()
     if loc:

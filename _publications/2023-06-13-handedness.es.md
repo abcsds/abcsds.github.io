@@ -4,7 +4,6 @@ collection: publications
 category: manuscripts
 permalink: /publication/2023-handedness
 lang: es
-excerpt: 'La lateralidad manual modela los patrones de desincronización/sincronización relacionada con eventos durante la imaginería y la ejecución motora: las personas diestras mostraron una activación más bilateral que las zurdas.'
 date: 2023-06-13
 venue: 'Frontiers in Psychology'
 slidesurl: ''

@@ -4,7 +4,7 @@
     "email": "barradaschacon@student.tugraz.at",
     "phone": "",
     "website": "https://abcsds.github.io",
-    "summary": "Behavioral Data Analyst and Cognitive Scientist. Currently at TU Graz.",
+    "summary": "Cognitive Scientist · Data Analyst · Research Software Engineer",
     "location": {
       "address": "",
       "postalCode": "",
@@ -222,14 +222,14 @@
       "publisher": "JuliaCon 2026",
       "releaseDate": "2026-08-13",
       "website": "https://github.com/abcsds/HeartRateLab.jl/blob/main/docs/poster/juliacon2026_poster.pdf",
-      "summary": "Normative HRV references built from open PhysioNet datasets with HeartRateLab.jl: one participant's paced-breathing recordings scored against both a general healthy population and a group of meditators — the same recording, two verdicts."
+      "summary": ""
     },
     {
       "name": "The HeartRateLab.jl: a toolkit for heart beats time series",
       "publisher": "JuliaCon 2026",
       "releaseDate": "2026-08-12",
       "website": "https://pretalx.com/juliacon-2026/talk/VZUPJA/",
-      "summary": "A Julia package for the processing, analysis, modeling and evaluation of heart Inter-Beat-Intervals (IBIs), presented as a long talk at JuliaCon 2026 in Mainz and registered in the Julia General registry."
+      "summary": ""
     },
     {
       "name": "Funcionamiento Cognitivo en Deportes Individuales vs Deportes de Conjunto",
@@ -257,14 +257,14 @@
       "publisher": "Machine Learning and Knowledge Extraction",
       "releaseDate": "2024-01-18",
       "website": "https://doi.org/10.3390/make6010011",
-      "summary": "EEG recorded from 30 participants viewing affective images in a virtual art gallery under warm and cold lighting, with deep learning used to classify affect state and light condition."
+      "summary": ""
     },
     {
       "name": "Effects of handedness on brain oscillatory activity during imagery and execution of upper limb movements",
       "publisher": "Frontiers in Psychology",
       "releaseDate": "2023-06-13",
       "website": "https://doi.org/10.3389/fpsyg.2023.1161613",
-      "summary": "Handedness shapes event-related desynchronization/synchronization patterns during motor imagery and execution, with right-handed participants showing more bilateral activation than left-handed ones."
+      "summary": ""
     },
     {
       "name": "Stylized faces enhance ERP features used for the detection of emotional responses",
@@ -285,7 +285,7 @@
       "publisher": "Measurement Science and Technology",
       "releaseDate": "2021-11-16",
       "website": "https://doi.org/10.1088/1361-6501/ac2dbd",
-      "summary": "A multi-author roadmap of the state of the art in signal processing for next generation measurement systems, contributing the section on EEG sensors and signal processing."
+      "summary": ""
     },
     {
       "name": "Emotion analysis using heart rate data",
@@ -403,7 +403,7 @@
       "category": "Open Source",
       "date": "",
       "url": "https://github.com/abcsds/HeartRateLab.jl",
-      "description": "A Julia toolkit for the processing, analysis, modeling and evaluation of heart Inter-Beat-Intervals. Registered in the Julia General registry; presented at JuliaCon 2026."
+      "description": "A Julia package for heart rate analysis based on time series of inter-beat intervals (IBIs)."
     },
     {
       "name": "Psychopy-NixOS",

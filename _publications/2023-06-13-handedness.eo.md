@@ -4,7 +4,6 @@ collection: publications
 category: manuscripts
 permalink: /publication/2023-handedness
 lang: eo
-excerpt: 'Mandekstreco formas la eventrilatajn malsinkronigajn/sinkronigajn ŝablonojn dum motora imagado kaj plenumo: dekstramanuloj montris pli duflankan aktivigon ol maldekstramanuloj.'
 date: 2023-06-13
 venue: 'Frontiers in Psychology'
 slidesurl: ''

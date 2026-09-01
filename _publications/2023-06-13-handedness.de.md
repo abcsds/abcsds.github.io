@@ -4,7 +4,6 @@ collection: publications
 category: manuscripts
 permalink: /publication/2023-handedness
 lang: de
-excerpt: 'Die Händigkeit prägt die ereigniskorrelierten Desynchronisations-/Synchronisationsmuster während motorischer Vorstellung und Ausführung: Rechtshändige zeigten eine stärker bilaterale Aktivierung als Linkshändige.'
 date: 2023-06-13
 venue: 'Frontiers in Psychology'
 slidesurl: ''

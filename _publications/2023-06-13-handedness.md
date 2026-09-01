@@ -3,7 +3,6 @@ title: "Effects of handedness on brain oscillatory activity during imagery and e
 collection: publications
 category: manuscripts
 permalink: /publication/2023-handedness
-excerpt: 'Handedness shapes event-related desynchronization/synchronization patterns during motor imagery and execution, with right-handed participants showing more bilateral activation than left-handed ones.'
 date: 2023-06-13
 venue: 'Frontiers in Psychology'
 slidesurl: ''
