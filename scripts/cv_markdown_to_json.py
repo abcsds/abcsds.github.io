@@ -433,6 +433,7 @@ def parse_presentations(directory):
             "event": fm.get("venue", ""),
             "date": _as_str(fm.get("date")),
             "location": fm.get("location", ""),
+            "website": fm.get("videourl", ""),
             "description": fm.get("excerpt", ""),
         }
         for fm in _front_matters(directory)

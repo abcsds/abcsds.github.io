@@ -301,6 +301,7 @@
       "event": "JuliaCon 2026, Johannes Gutenberg University",
       "date": "2026-08-12",
       "location": "Mainz, Germany",
+      "website": "https://www.youtube.com/watch?v=hHU9kS5CRlo",
       "description": ""
     },
     {
@@ -308,6 +309,7 @@
       "event": "RealRaum",
       "date": "2025-10-24",
       "location": "Graz, Austria",
+      "website": "",
       "description": ""
     },
     {
@@ -315,6 +317,7 @@
       "event": "La Sapienza University",
       "date": "2022-10-26",
       "location": "Rome, Italy",
+      "website": "",
       "description": ""
     },
     {
@@ -322,6 +325,7 @@
       "event": "Johannes Kepler University Linz",
       "date": "2019-08-26",
       "location": "Linz, Austria",
+      "website": "",
       "description": ""
     },
     {
@@ -329,6 +333,7 @@
       "event": "Natural Sciences Faculty, University of Guanajuato",
       "date": "2016-12-16",
       "location": "Guanajuato, Mexico",
+      "website": "",
       "description": ""
     },
     {
@@ -336,6 +341,7 @@
       "event": "Natural Sciences Faculty, University of Guanajuato",
       "date": "2016-08-06",
       "location": "Guanajuato, Mexico",
+      "website": "",
       "description": ""
     },
     {
@@ -343,6 +349,7 @@
       "event": "Oxford University",
       "date": "2016-02-18",
       "location": "Oxford, UK",
+      "website": "",
       "description": ""
     },
     {
@@ -350,6 +357,7 @@
       "event": "Engineering Faculty, University of Guanajuato",
       "date": "2014-06-03",
       "location": "Salamanca, Mexico",
+      "website": "",
       "description": ""
     },
     {
@@ -357,6 +365,7 @@
       "event": "Municipalities of Guanajuato, Mexico",
       "date": "2013-12-01",
       "location": "Guanajuato, Mexico",
+      "website": "",
       "description": ""
     }
   ],
